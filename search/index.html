@@ -1,0 +1,32 @@
+<!doctype html><html lang=en><head><title>Search Results</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/application.fb9df7e952c9dccf496d00faec07de633aae460f909bbba4b5e0ad22f5887d73.css integrity="sha256-+5336VLJ3M9JbQD67AfeYzquRg+Qm7ukteCtIvWIfXM="><link rel=icon type=image/png href=/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png><meta property="og:title" content="Search Results"><meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```"><meta property="og:type" content="article"><meta property="og:url" content="https://miladramhormozi.github.io/search/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2010-06-08T08:06:25+06:00"><meta property="article:modified_time" content="2010-06-08T08:06:25+06:00"><script async src="https://www.googletagmanager.com/gtag/js?id=G-MF2BQ9MTFL"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-MF2BQ9MTFL",{anonymize_ip:!1})}</script></head><body class="type-posts kind-page" data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
+<span class=navbar-toggler-icon></span></button>
+<a class=navbar-brand href=/><img src=/images/site/main-logo_hu9ad2f25a877e6fef77c7a3dbef5094ad_6881_42x0_resize_box_3.png alt=Logo>
+Milad's Portfolio</a>
+<button class="navbar-toggler navbar-light" id=toc-toggler type=button>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=menu-icon-center src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme"></a>
+<a class="dropdown-item nav-link" href=# data-scheme=dark><img class=menu-icon-center src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a>
+<a class="dropdown-item nav-link" href=# data-scheme=system><img class=menu-icon-center src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/main-logo_hu9ad2f25a877e6fef77c7a3dbef5094ad_6881_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/inverted-logo_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts data-filter=all>Posts</a></li><div class=subtree><li><a href=/posts/introduction/ title=ভূমিকা>ভূমিকা</a></li><li><i class="fas fa-plus-circle"></i><a href=/posts/category/>বিভাগ</a><ul><li><i class="fas fa-plus-circle"></i><a href=/posts/category/sub-category/>উপ-বিভাগ</a><ul><li><a href=/posts/category/sub-category/rich-content/ title="সমৃদ্ধ কন্টেন্ট">সমৃদ্ধ কন্টেন্ট</a></li></ul></li></ul></li><li><a href=/posts/markdown-sample/ title="Markdown এর নমুনা">Markdown এর নমুনা</a></li><li><a href=/posts/shortcodes/ title="শর্টকোডের  নমুনা">শর্টকোডের নমুনা</a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid post-card-holder" id=post-card-holder><div id=search-results><script id=search-result-template type=text/x-js-template>
+          <div class="post-card">
+            <a href="${link}" class="post-card-link">
+              <div class="card" style="min-height: 352px;"><a href="${link}" class="post-card-link">
+                <div class="card-head">
+                  <img class="card-img-top" src="${hero}" alt="Card Heading Image">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">${title}</h5>
+                  <p class="card-text post-summary">${summary}</p>
+                </div>
+                <div class="card-footer">
+                  <span class="float-left">${date}</span>
+                  <a href="${link}" class="float-right btn btn-outline-info btn-sm">Read</a>
+                </div>
+              </div>
+	          </a>
+          </div>
+        </script></div></div></div></section></div><script src=/application.41355b7f637c7f2eb5686072360f74da00017be7566b78d4e1184e28b6d1926c.js integrity="sha256-QTVbf2N8fy61aGByNg902gABe+dWa3jU4RhOKLbRkmw=" defer></script></body></html>
