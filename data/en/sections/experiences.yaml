@@ -6,59 +6,185 @@ section:
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  hideTitle: true 
 
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: NetRestCo
+    url: "https://www.aparat.com/netrestco"
+    # location: Dhaka Branch
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Responsible for Video Production.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Video Producer
+    start: Apr 2018
+    end: Feb 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Managed and coordinated post-production video editing, motion graphics design, compositing and quality assurance reviewing.
+    - Designed programming and created content to drive brand and marketing messaging in accordance with brand strategies.
+    - Oversaw logistical aspects from pre-production to post-production.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Iran Game Development Institute
+    # url: "https://www.example.com"
+    # location: Nowhere
+    overview: Teaching game development fundamentals in schools.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Game Development Tutor
+    start: Nov 2016
+    end: Aug 2017
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Pilot proposal plan was to spread game development skills such as programming, animation, art, etc., in national education system.
+    - Planned and implemented integrated lessons to meet national standards.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Hurrah Games/PUZMAG
+    # url: "https://www.example.com"
+    # location: Intern Land
+    overview: Managing social media, PR and Marketing of a Game Publishing company and Entertainment News website/magazine.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Marketing and PR Coordinator/Content Developer and Social Media Coordinator
+    start: Jan 2017
+    end: Jul 2017
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Organized logistics for marketing and proposal strategy meetings.
+    - Created press releases and announcements, newsletter articles and website copy.
+    - Diversified and enhanced website pages and social media platforms to boost reach.
+    - Coordinate game testing and QA and observe gamers playing games.
+
+- company:
+    name: Tehran Game Convention (Iran Computer and Video Games Foundation)
+    url: "https://www.connection-events.com/events/tgc/"
+    # location: Intern Land
+    overview: Official event of Iran Computer and Video Games Foundation.
+  positions:
+  - designation: PR, Social Media and Marketing Coordinator
+    start: Nov 2016
+    end: Jul 2017
+    responsibilities:
+    - Leveraged different market research strategies to investigate new products and enhance campaign planning.
+    - Researched, gathered and edited proposal materials.
+    - Coordinated creation and deployment of videos, social media posts and other marketing collateral.
+
+- company:
+    name: Tehran Video Games Festival (Iran Video Game Festival)
+    url: "http://en.ircg.ir/festival/1/Tehran-Video-Games-Festival"
+    # location: Intern Land
+    overview: Official event of Iran Computer and Video Games Foundation.
+  positions:
+  - designation: PR, Social Media and Marketing Coordinator
+    start: Nov 2016
+    end: Mar 2017
+    responsibilities:
+    - Composed daily posts for social media and helped build corporate presence.
+    - Answered general marketing department inquiries by email, phone and mail.
+    - Coordinated creation and deployment of videos, social media posts and other marketing collateral.
+
+- company:
+    name: Bazinameh (Game Doc) Magazine
+    url: "http://www.bazinameh.org"
+    # location: Nowhere
+    overview: jack-of-all-trades.
+  positions:
+  - designation: Author, PR and Social Media Specialist
+    start:  Jul 2015
+    end: Aug 2017
+    responsibilities:
+    - Write reports, articles, interviews and reviews about game and game industry.
+    - Social Media Specialist and managing community.
+    - PR and marketing.
+
+
+- company:
+    name: BlueSky Game Studio
+    url: "https://www.example.com"
+    # location: 
+    # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Business Development and Marketing Manager
+    start: Jan 2015
+    end: Feb 2017
+    responsibilities:
+    - Planned and implemented studies to assess market conditions and evaluated results to enhance marketing campaigns.
+    - Generated sponsorships with related and partnering entities to enhance marketing objectives.
+    - Developed insights on marketing campaigns to assess performance against goals.
+    - Game and Level designer in game productions.
+    - Coordinate game testing and QA and observe gamers playing games.
+    - Coordinate and manage game publishing plan for game with digital stores.
+
+- company:
+    name: Haftsang Game Studio
+    url: "https://www.example.com"
+    # location: Intern Land
+    overview: Research, Develop and Design games for VAS and F2P services.
+  positions:
+  - designation: R&D and Game Designer
+    start:  Sep 2013
+    end: Apr 2015
+    responsibilities:
+    - Conducted regular design reviews throughout game development process.
+    - Balanced and adjusted gameplay experiences to increase critical and commercial success of product.
+    - Established documents outlining concept, art, deliverable specifications, game flow charts and overall content to help keep projects moving and teams working together cohesively.
+    - Created core game storylines, role-play mechanics and character biographies for new games.
+    - Worked with customers to understand needs and provide excellent service.
+    - Coordinate game testing and QA and observe gamers playing games.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.example.com"
+#     location: Intern Land
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.example.com"
+#     location: Intern Land
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.example.com"
+#     location: Intern Land
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.example.com"
+#     location: Intern Land
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.

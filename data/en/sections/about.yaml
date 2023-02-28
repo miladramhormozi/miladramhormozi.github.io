@@ -7,57 +7,73 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
-designation: Software Engineer
-# your company information
-company:
-  name: Example Co.
-  url: "https://www.example.com"
+# # your designation
+# designation: Software Engineer
+# # your company information
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I worked in game-related positions, from research and development to game design and marketing to content creation. Open to learning and gaining fresh experience and loves video games and working in the industry.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
-
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "info@miladramhormozi.com"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/miladramhormozi/"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/miladramhormozi"
+
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
+  url: "https://twitter.com/miladramhormozi/"
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "#"
+  url: "https://www.facebook.com/MiladPR/"
 
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+- name: Telegram
+  icon: "fab fa-telegram"
+  url: "tg://resolve?domain=miladramhormozi"
 
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
-resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+- name: Steam
+  icon: "fab fa-steam"
+  url: "https://steamcommunity.com/id/MiladRamhormozi/"
+
+- name: PlayStation
+  icon: "fab fa-playstation"
+  url: "https://psnprofiles.com/Milad-Ramhormozi"
+
+- name: Xbox
+  icon: "fab fa-xbox"
+  url: "https://account.xbox.com/en-us/profile?gamertag=MiladRam"
+
+# - name: Mastadon
+#   icon: "fab fa-mastodon"
+#   url: "#"
+#   rel: "me noopener"
+
+# # You can put custom buttons to link your relevant resources.
+# # For example, you can put link for your resume.
+# resourceLinks:
+# - title: "My Resume"
+#   url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -65,18 +81,18 @@ resourceLinks:
 badges:
 - type: certification
   name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  url: "https://university.atlassian.com/student/award/8aQtTsz5FSKMmBqW8QhooMqb"
+  badge: "https://cdn.exceedlms.com/uploads/certifications/badges/28613/large/uni-credential-emblem-jirafundamentals.png?1624917008&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZXhjZWVkbG1zLmNvbS91cGxvYWRzL2NlcnRpZmljYXRpb25zL2JhZGdlcy8yODYxMy9sYXJnZS91bmktY3JlZGVudGlhbC1lbWJsZW0tamlyYWZ1bmRhbWVudGFscy5wbmc~MTYyNDkxNzAwOCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY3NzU5MzU1M319fV19&Signature=KTUXZUd64YetqAaOt6hRmGvHIZBFS10AuNQ8X-aGc2xt~SVoiiNqKhS22qwC5IFWwWNHqfwNc98Arrshn5QGwIQcarz6KO7-vQnuYTyHNA4C-v2YF~Aal8YZy5SzTOzHKcucqse6SEHzIDVZEIS8GG5CefFo7gW1xy79d2DqfQDqcVFNRnLMKODiMrkCS9gbzmEIjinPb-s~gxk6zNVe~23k6zXGoGQ39TX8Oy7zMPAU6QivIxStX3pTnJ9R8kU~RX87Iokd1d3-iEfuy9tz6xZ6fbz5OWI-KjKS-AG2KDM281XR7ukA23o52~KYk8g2n6A~b6Lgwi6rmv-I1caomA__&Key-Pair-Id=APKAJINUZDMKZJI5I6DA"
 
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+# - type: certification
+#   name: Istio and IBM Cloud Kubernetes Service
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
 
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
   name: Leadership
@@ -90,7 +106,7 @@ badges:
 
 - type: soft-skill-indicator
   name: Hard Working
-  percentage: 85
+  percentage: 90
   color: orange
 
 # you can also provide color code instead of the color name
