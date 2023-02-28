@@ -64,9 +64,6 @@ socialLinks:
   icon: "fab fa-xbox"
   url: "https://account.xbox.com/en-us/profile?gamertag=MiladRam"
 
-- name: Xbox
-  icon: "fab fa-xbox"
-  url: "https://account.xbox.com/en-us/profile?gamertag=MiladRam"
 # - name: Mastadon
 #   icon: "fab fa-mastodon"
 #   url: "#"
